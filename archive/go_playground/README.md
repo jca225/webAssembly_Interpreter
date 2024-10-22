@@ -1,0 +1,1 @@
+Go programs are organized into packages

@@ -1,0 +1,7 @@
+<LParenToken line=1 col=1 />
+<QuoteToken line=1 col=2 />
+<AbbrevToken line=1 col=8 />
+<IdentifierToken line=1 col=9 val='a' />
+<AbbrevToken line=1 col=11 />
+<IdentifierToken line=1 col=12 val='b' />
+<EofToken />

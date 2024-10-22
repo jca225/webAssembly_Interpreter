@@ -1,0 +1,11 @@
+<Apply>
+ <Identifier val='+' />
+ <Int val='1' />
+ <Int val='2' />
+</Apply>
+
+<Apply>
+ <Identifier val='+' />
+ <Dbl val='1.100000' />
+ <Int val='2' />
+</Apply>

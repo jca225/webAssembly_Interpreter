@@ -1,0 +1,6 @@
+<LParenToken line=1 col=1 />
+<AndToken line=1 col=2 />
+<BoolToken line=1 col=6 val='false' />
+<IdentifierToken line=1 col=9 val='explode' />
+<RParenToken line=1 col=16 />
+<EofToken />

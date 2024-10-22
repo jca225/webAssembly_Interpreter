@@ -1,0 +1,7 @@
+<LParenToken line=1 col=1 />
+<IfToken line=1 col=2 />
+<BoolToken line=1 col=5 val='true' />
+<BoolToken line=1 col=8 val='true' />
+<BoolToken line=1 col=11 val='false' />
+<RParenToken line=1 col=13 />
+<EofToken />

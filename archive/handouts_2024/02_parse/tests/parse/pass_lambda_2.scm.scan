@@ -1,0 +1,12 @@
+<LParenToken line=1 col=1 />
+<LambdaToken line=1 col=2 />
+<LParenToken line=1 col=9 />
+<IdentifierToken line=1 col=10 val='x' />
+<RParenToken line=1 col=11 />
+<LParenToken line=1 col=13 />
+<IdentifierToken line=1 col=14 val='+' />
+<IdentifierToken line=1 col=16 val='x' />
+<IdentifierToken line=1 col=18 val='y' />
+<RParenToken line=1 col=19 />
+<RParenToken line=1 col=20 />
+<EofToken />

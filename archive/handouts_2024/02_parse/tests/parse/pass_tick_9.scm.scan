@@ -1,0 +1,3 @@
+<AbbrevToken line=1 col=1 />
+<StrToken line=1 col=2 val='hello' />
+<EofToken />

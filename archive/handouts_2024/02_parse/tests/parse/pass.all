@@ -1,0 +1,120 @@
+;;; Datum Tests
+;; Bool
+#f
+#t
+;; Character
+#\a
+#\\
+#\(
+#\newline
+#\#
+#\" ;" -- this comment is to get nicer syntax highlighting in the editor :)
+#\)
+#\space
+#\tab
+#\'
+;; Numbers (int, float)
+-7
++7
+7
+-7.7
++7.7
+7.7
+-100
+100
+100.101010
+-99.8686863
+;; Identifiers
+&k
+^a
+a7
+:h
+aa.+-b
+/i
+$m
+!n
+>e
+<g
+;; Quoted datum expressions
+'7.7
+'7
+'()
+'(1 2 3)
+'abcdefg
+'a
+'#(1 2 3)
+'-1.1
+'#()
+'"hello"
+;; Strings
+""
+"string"
+"string with spaces"
+"string with \\ \" \n \t escap''ing"
+"a very long string, but that shouldn't be a problem because strings are just strings and the length should never be an issue"
+;; Basic function application
+(+) ; 0 arg
+(+ 1) ; 1 arg
+(+ 1 2) ; >1 arg
+(+ 1 2 3 4 5 6 7 8 9) ; lots of args
+(+ 1 2 (+ 3 4)) ; nested expressions
+
+;; (define) special form
+(define a 1) ; define to a datum
+(define a b) ; define to an identifier
+(define a 'a); define to a symbol
+(define a (+ 1 2)) ; define to an expression
+(define a (lambda (x y z) (begin (+ 1 2) (- 2 3) (+ x y z))))
+
+;; (quote) special form
+(quote a)
+(quote 1)
+(quote #\x)
+(quote "hello")
+(quote 1.1)
+
+;; (if) special form
+(if #t #t #f)
+(if (> 1 2) 'a 'b)
+(if #t 'a 'b)
+(if #t (+ 1 2 3) "hello")
+(if #f (+ 1 2 3) '#(1 2 3))
+
+;; (set!) special form
+(set! x 'x)
+(set! xy x)
+(set! x 2)
+(set! x "hello")
+(set! x 4.4)
+
+;; (and) special form
+(and #t #f)
+(and (> 1 2))
+(and (> 1 2) (< 1 2))
+(and 1 2 3 4 5 6 7)
+(and #f explode)
+
+;; (or) special form
+(or #t #f)
+(or (> 1 2))
+(or (> 1 2) (< 1 2))
+(or 1 2 3 4 5)
+(or #t explode)
+
+;; (begin) special form
+(begin (+ 1 2) 'a 9 (set! a b) #f)
+
+;; (cond) special form
+(cond
+    ((> 1 2) (x) a 2 3 '(1 2 3 4 5) (+ 1 2))
+    ((< 1 2) x)
+    (#t #t)
+    (#f)
+)
+
+;; (lambda) special form
+(lambda () (+ 1 2))
+(lambda (x) (+ x y))
+(lambda (x) (begin (x 78) (/ 7 y) (+ (- 1 2) 3) (+ 1 2) 12))
+(lambda (x y z) (+ x y z))
+(lambda (x) (lambda (y) (+ x y)))

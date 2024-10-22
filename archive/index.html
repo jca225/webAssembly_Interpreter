@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>WASM compileStreaming() test</title>
+  </head>
+
+  <body>
+
+
+    <script>
+      const importObject = {
+      };
+
+      WebAssembly.compileStreaming(fetch("fib.wasm"))
+      .then(module => WebAssembly.instantiate(module, importObject))
+      .then(instance => {
+        console.log(instance.exports.fib(10));
+      });
+    </script>
+  </body>
+
+</html>

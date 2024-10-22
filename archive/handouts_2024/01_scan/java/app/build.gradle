@@ -1,0 +1,6 @@
+plugins { id 'application' }
+repositories { mavenCentral() }
+dependencies { }
+application { mainClass = 'edu.lehigh.cse262.slang.Slang' }
+compileJava { options.debug = false }
+jar { manifest { attributes( 'Main-Class': 'edu.lehigh.cse262.slang.Slang' ) } }

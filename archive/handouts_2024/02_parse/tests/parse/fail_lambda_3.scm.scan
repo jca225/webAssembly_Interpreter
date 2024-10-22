@@ -1,0 +1,7 @@
+<LParenToken line=1 col=1 />
+<LambdaToken line=1 col=2 />
+<LParenToken line=1 col=9 />
+<IntToken line=1 col=10 val='1' />
+<RParenToken line=1 col=11 />
+<RParenToken line=1 col=12 />
+<EofToken />

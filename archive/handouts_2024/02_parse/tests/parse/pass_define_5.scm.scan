@@ -1,0 +1,32 @@
+<LParenToken line=1 col=1 />
+<DefineToken line=1 col=2 />
+<IdentifierToken line=1 col=9 val='a' />
+<LParenToken line=1 col=11 />
+<LambdaToken line=1 col=12 />
+<LParenToken line=1 col=19 />
+<IdentifierToken line=1 col=20 val='x' />
+<IdentifierToken line=1 col=22 val='y' />
+<IdentifierToken line=1 col=24 val='z' />
+<RParenToken line=1 col=25 />
+<LParenToken line=1 col=27 />
+<BeginToken line=1 col=28 />
+<LParenToken line=1 col=34 />
+<IdentifierToken line=1 col=35 val='+' />
+<IntToken line=1 col=37 val='1' />
+<IntToken line=1 col=39 val='2' />
+<RParenToken line=1 col=40 />
+<LParenToken line=1 col=42 />
+<IdentifierToken line=1 col=43 val='-' />
+<IntToken line=1 col=45 val='2' />
+<IntToken line=1 col=47 val='3' />
+<RParenToken line=1 col=48 />
+<LParenToken line=1 col=50 />
+<IdentifierToken line=1 col=51 val='+' />
+<IdentifierToken line=1 col=53 val='x' />
+<IdentifierToken line=1 col=55 val='y' />
+<IdentifierToken line=1 col=57 val='z' />
+<RParenToken line=1 col=58 />
+<RParenToken line=1 col=59 />
+<RParenToken line=1 col=60 />
+<RParenToken line=1 col=61 />
+<EofToken />

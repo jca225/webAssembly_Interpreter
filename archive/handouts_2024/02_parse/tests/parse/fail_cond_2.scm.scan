@@ -1,0 +1,4 @@
+<LParenToken line=1 col=1 />
+<CondToken line=1 col=2 />
+<LParenToken line=1 col=7 />
+<EofToken />

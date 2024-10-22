@@ -1,0 +1,13 @@
+<LParenToken line=1 col=1 />
+<IdentifierToken line=1 col=2 val='+' />
+<IntToken line=1 col=4 val='1' />
+<IntToken line=1 col=6 val='2' />
+<IntToken line=1 col=8 val='3' />
+<IntToken line=1 col=10 val='4' />
+<IntToken line=1 col=12 val='5' />
+<IntToken line=1 col=14 val='6' />
+<IntToken line=1 col=16 val='7' />
+<IntToken line=1 col=18 val='8' />
+<IntToken line=1 col=20 val='9' />
+<RParenToken line=1 col=21 />
+<EofToken />

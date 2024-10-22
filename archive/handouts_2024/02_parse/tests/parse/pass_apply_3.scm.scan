@@ -1,0 +1,6 @@
+<LParenToken line=1 col=1 />
+<IdentifierToken line=1 col=2 val='+' />
+<IntToken line=1 col=4 val='1' />
+<IntToken line=1 col=6 val='2' />
+<RParenToken line=1 col=7 />
+<EofToken />

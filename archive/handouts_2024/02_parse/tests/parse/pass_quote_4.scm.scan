@@ -1,0 +1,5 @@
+<LParenToken line=1 col=1 />
+<QuoteToken line=1 col=2 />
+<StrToken line=1 col=8 val='hello' />
+<RParenToken line=1 col=15 />
+<EofToken />
